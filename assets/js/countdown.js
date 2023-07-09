@@ -18,7 +18,6 @@ function stopCount(){
 
 
 function countdown_proc() {
-		console.log("tic");
 
 		daysPH = document.getElementById("days");
 		hoursPH = document.getElementById("hours");

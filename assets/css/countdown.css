@@ -1,0 +1,83 @@
+/* start countdown */
+
+
+:root{
+
+	--ticSize: 5px;
+	--mainFont: robomono;
+	--secondFont: creativo;
+	--backCol: #fff2dc;
+	--firstCol: #f7931e;
+	--secondCol: #4d4d4d;
+	--thirdCol: #22b573;
+	--fourthCol: #ff7bac;
+	--fifthCol: #00a99d;
+
+}
+
+
+
+
+
+
+
+#countdown
+	{
+  		background: var(--firstCol);
+  		color: var(--backCol);
+		text-align: center;
+		max-height: 70vh;
+		padding-top: 15%;
+		height:70vh
+	}
+#countdown h1
+	{
+		font-size: 80px;
+		font-weight: 700;
+	}
+#countdown h2
+	{
+		font-weight: 300;
+		font-size: 40px;
+		padding-bottom: 40px;
+	}
+#countdown small
+	{
+		font-size: 80px;
+		color: var(--backCol);
+		font-weight: bold;
+	}
+ul.countdown
+	{
+		margin: 0;
+		padding: 0;
+	}
+ul.countdown span 
+	{
+		font-size: 40px;
+		text-align: center;
+		display: inline-block;
+		color: var(--backCol);
+	}
+ul.countdown li
+	{
+	border-right: 1px solid #ffffff;
+	font-weight: bold;
+	font-size: 18px;
+	display:inline-block;
+	padding: 0px 40px 0px 40px;
+	}
+ul.countdown li:last-child
+	{
+		border-right: none;
+	}
+ul.countdown li h3
+	{
+		color: var(--backCol);
+		font-size: 18px;
+		font-weight: 300;
+	}
+
+
+
+/* end countdown */

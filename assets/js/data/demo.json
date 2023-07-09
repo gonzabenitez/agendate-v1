@@ -1,0 +1,75 @@
+{ "config" : { "name" : "mint",
+                "logo" : "logo.png",
+                "description": "A light coloured example",
+                "stands" : [ { "name" : "Manicura",
+                            "color" : "#ff7bac", 
+                            "availTasks" : [1],
+                            "weekSchema": [0,1,2,1,2,1,0]
+                         },
+                         { "name" : "Barberia",
+                            "color": "#00a99d",
+                            "availTasks" : [0],
+                            "weekSchema": [1,0,0,2,0,2,0]
+                         },
+                         { "name" : "Peluqueria",
+                            "color": "#22b573",
+                            "availTasks" : [0,2,3],
+                            "weekSchema": [0,2,0,0,0,1,0]
+                         }
+                    ],
+                    "tasks" : [ { "name" : "Corte Caballero",
+                          "description" : "A work where we do something cool for sure :)",
+                          "price" : 1500,
+                          "length": 360000
+                                },
+                        { "name" : "Uñas esculpidas",
+                          "description" : "A work where we do something cheap fast and easy:)",
+                          "price" : 500,
+                          "length": 180000
+                                },
+                        { "name" : "Color",
+                          "description" : "A work where we do something nice thats worthy :)",
+                          "price" : 2500,
+                          "length": 520000
+                                },
+
+                         {"name" : "Corte Dama",
+                          "description" : "Come to a free test of our service :)",
+                          "price" : 0,
+                          "length": 90000
+                                }
+
+                     ],
+                    "schemas" : [    { "name":"Cerrado"},
+                             { "name": "8AM",
+                                "shifts": [
+                                        {"sTime": 360000 , "length": 360000  , "avail": true},
+                                        {"sTime": 360000 , "length": 360000 , "avail": false},
+                                        {"sTime": 360000 , "length": 360000 , "avail": true}
+                                            ]
+                             },
+                             {  "name": "9AM",
+                                "shifts": [
+                                            {"sTime": 360000 , "length": 360000 , "avail": true},
+                                            {"sTime": 360000 , "length": 360000 , "avail": false},
+                                            {"sTime": 360000 , "length": 360000 , "avail": true}
+                                            ]
+                             }           
+                        ]
+
+                    },
+            
+            
+            
+
+            
+
+
+
+            "schedule" :{ 
+
+                        }                       
+
+                        
+
+            }
